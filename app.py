@@ -9,7 +9,7 @@ def hello_world():
 
 
 @app.route('/api/plate1')
-def hello_world():
+def plate1():
     return jsonify(
         {
             "message": "success",
@@ -20,7 +20,7 @@ def hello_world():
 
 
 @app.route('/api/plate2')
-def hello_world():
+def plate2():
     return jsonify(
         {
             "message": "success",
@@ -31,7 +31,7 @@ def hello_world():
 
 
 @app.route('/api/plate3')
-def hello_world():
+def plate3():
     return jsonify(
         {
             "message": "success",
@@ -42,7 +42,7 @@ def hello_world():
 
 
 @app.route('/api/plate4')
-def hello_world():
+def plate4():
     return jsonify(
         {
             "message": "success",
